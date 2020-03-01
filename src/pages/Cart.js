@@ -19,7 +19,7 @@ class Cart extends Component {
         </h1>
         <div className="row row-cols-1 row-cols-md-3">
           {this.props.cartItems.map((item, index) => (
-            <CartItem item={item} index={index} key={item.product.id} />
+            <CartItem item={item} index={index} key={index} />
           ))}
         </div>
 

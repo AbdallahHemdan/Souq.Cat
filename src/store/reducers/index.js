@@ -1,6 +1,5 @@
 import { ADD_TO_CART, REMOVE_FROM_CART, CLEAR_CART } from "../actions/types";
 export default function cartReducers(state, action) {
-  console.log(action, state);
   switch (action.type) {
     case ADD_TO_CART:
       return {
@@ -13,10 +12,14 @@ export default function cartReducers(state, action) {
         ]
       };
     case REMOVE_FROM_CART: {
+      console.log("Hello, from REMOVE_FROM_CART");
+      console.log(action.index);
+      console.log(state);
       const itemIndex = action.index;
       const newState = [...state];
       newState.splice(itemIndex, 1);
       return newState;
+      // return state;
     }
     case CLEAR_CART: {
       let newState = { ...state };
@@ -25,6 +28,7 @@ export default function cartReducers(state, action) {
     }
 
     default:
+      if (state === undefined) return [];
       return state;
   }
 }

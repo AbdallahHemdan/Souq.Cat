@@ -19,7 +19,7 @@ class Nav extends Component {
                 className="d-inline-block align-top"
                 alt=""
               />{" "}
-              Catify
+              Souq.cat
             </Link>
             <button
               className="navbar-toggler"
