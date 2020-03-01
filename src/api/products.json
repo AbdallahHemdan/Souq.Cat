@@ -1,0 +1,42 @@
+[{
+    "id": 1,
+    "name": "Persian Cat",
+    "price": 100,
+    "image": "/images/1.jpg",
+    "description": "Persin are highly intelligent and intensely inquisitive. They love to investigate and will leave no nook."
+  },
+  {
+    "id": 2,
+    "name": "Bengal Cat",
+    "price": 150,
+    "image": "/images/2.jpg",
+    "description": "Bengal are highly intelligent and intensely inquisitive. They love to investigate and will leave no nook."
+  },
+  {
+    "id": 3,
+    "name": "Abyssinian Cat",
+    "price": 120,
+    "image": "/images/3.jpg",
+    "description": "Abyssn  are highly intelligent and intensely inquisitive. They love to investigate and will leave no nook."
+  },
+  {
+    "id": 4,
+    "name": "Bengal Cat",
+    "price": 170,
+    "image": "/images/4.jpg",
+    "description": "Bengal are highly intelligent and intensely inquisitive. They love to investigate and will leave no nook."
+  },
+  {
+    "id": 5,
+    "name": "Burmese Cat",
+    "price": 110,
+    "image": "/images/5.png",
+    "description": "Burmes are highly intelligent and intensely inquisitive. They love to investigate and will leave no nook."
+  }, {
+    "id": 6,
+    "name": "Korat Cat",
+    "price": 200,
+    "image": "/images/6.jpg",
+    "description": "Korate are highly intelligent and intensely inquisitive. They love to investigate and will leave no nook."
+  }
+]

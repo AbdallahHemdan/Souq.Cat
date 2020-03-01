@@ -1,0 +1,32 @@
+.cart-icon i {
+  font-size: 35px;
+}
+.cart {
+  font-size: 30px !important;
+}
+.remove-cart {
+  font-size: 15px !important;
+  top: -5px !important;
+}
+
+.badge {
+  border-radius: 2.25rem;
+}
+
+.container {
+  padding-left: 0px;
+}
+
+.delete {
+  padding: 15px;
+}
+.details {
+  padding: 5px;
+}
+.blue {
+  color: #0564ca;
+}
+.confirm-order {
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
