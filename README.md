@@ -15,9 +15,9 @@
 
 </div>
 
----
+
 ## 🛒Souq.cat 
---------------------
+
 
 Simple Cat store for selling cats to help me get rid of all street cats.. build using ReactJS, Redux, React-Router, React-Bootstrap..
 
@@ -31,8 +31,6 @@ Simple Cat store for selling cats to help me get rid of all street cats.. build 
 ![image](https://user-images.githubusercontent.com/40190772/76120739-cdf3ef80-5ffa-11ea-97b8-cfef5344d7cc.png)
 <br/>
 ![image](https://user-images.githubusercontent.com/40190772/76120979-55416300-5ffb-11ea-9613-e9d97bcc76fb.png)
-
-
 
 
 </div>
