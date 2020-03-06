@@ -7,11 +7,11 @@
 
 <div align="center">
 
-[![GitHub contributors](https://img.shields.io/github/contributors/AbdallahHemdan/15PuzzleGame)](https://github.com/AbdallahHemdan/15PuzzleGame/contributors)
-[![GitHub issues](https://img.shields.io/github/issues/AbdallahHemdan/15PuzzleGame)](https://github.com/AbdallahHemdan/15PuzzleGame/issues)
-[![GitHub forks](https://img.shields.io/github/forks/AbdallahHemdan/15PuzzleGame)](https://github.com/AbdallahHemdan/15PuzzleGame/network)
-[![GitHub stars](https://img.shields.io/github/stars/AbdallahHemdan/15PuzzleGame)](https://github.com/AbdallahHemdan/15PuzzleGame/stargazers)
-[![GitHub license](https://img.shields.io/github/license/AbdallahHemdan/15PuzzleGame)](https://github.com/AbdallahHemdan/15PuzzleGame/blob/master/LICENSE)
+[![GitHub contributors](https://img.shields.io/github/contributors/AbdallahHemdan/Souq.Cat)](https://github.com/AbdallahHemdan/Souq.Cat/contributors)
+[![GitHub issues](https://img.shields.io/github/issues/AbdallahHemdan/Souq.Cat)](https://github.com/AbdallahHemdan/Souq.Cat/issues)
+[![GitHub forks](https://img.shields.io/github/forks/AbdallahHemdan/Souq.Cat)](https://github.com/AbdallahHemdan/Souq.Cat/network)
+[![GitHub stars](https://img.shields.io/github/stars/AbdallahHemdan/Souq.Cat)](https://github.com/AbdallahHemdan/Souq.Cat/stargazers)
+[![GitHub license](https://img.shields.io/github/license/AbdallahHemdan/Souq.Cat)](https://github.com/AbdallahHemdan/Souq.Cat/blob/master/LICENSE)
 
 </div>
 
