@@ -15,14 +15,13 @@
 
 </div>
 
-
-## 🛒Souq.cat 
-
+## 🛒Souq.cat
 
 Simple Cat store for selling cats to help me get rid of all street cats.. build using ReactJS, Redux, React-Router, React-Bootstrap..
 
-## 📷 ScreenShots 
--------------------
+## 📷 ScreenShots
+
+---
 
 <div align="center">
   
@@ -32,7 +31,24 @@ Simple Cat store for selling cats to help me get rid of all street cats.. build 
 <br/>
 ![image](https://user-images.githubusercontent.com/40190772/76120979-55416300-5ffb-11ea-9613-e9d97bcc76fb.png)
 
-
 </div>
 
+## How to run
 
+1 - Fill the data
+
+```sh
+node ./src/api/import-data.js --import
+```
+
+2 - Run the Server
+
+```sh
+node ./src/api/server.js
+```
+
+3 - Run the Website
+
+```sh
+npm start
+```
