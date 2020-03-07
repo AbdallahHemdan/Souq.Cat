@@ -18,9 +18,11 @@ class Products extends Component {
   componentDidMount() {
     getAllProducts()
       .then(result => {
-        console.log(result);
-        this.setState({ products: result });
-        console.log(result);
+        if (result && result.status === 200) {
+          this.setState({ products: result.data.products });
+        } else {
+          throw new Error(result.data.message);
+        }
       })
       .catch(err => {
         console.log(err);

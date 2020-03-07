@@ -26,10 +26,16 @@ exports.getProductById = async (req, res) => {
     });
   }
   const product = await Product
-    .find({
+    .findOne({
       id: id
     })
     .select('-__v -_id');
+  if (!product) {
+    return res.status(404).send({
+      status: 'error',
+      message: 'No Product found with this ID'
+    });
+  }
   res.status(200).send({
     status: 'success',
     product
