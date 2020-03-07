@@ -20,7 +20,7 @@ const productSchema = mognoose.Schema({
   },
   image: {
     type: String,
-    default: 'default.jpg'
+    default: '/Souq.Cat/default.jpg'
   },
   description: {
     type: String,
