@@ -1,6 +1,7 @@
 const express = require('express');
 const morgan = require('morgan');
 const mongoose = require('mongoose');
+const cors = require('cors');
 const app = express();
 
 const productRouter = require(`${__dirname}\\routes\\product.route.js`);
@@ -15,6 +16,8 @@ mongoose
     useUnifiedTopology: true
   })
   .then(() => console.log('DB connection successful!'));
+
+app.use(cors());
 
 app.use(morgan('dev'));
 app.use(express.json());

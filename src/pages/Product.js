@@ -30,7 +30,8 @@ class Product extends Component {
     getSpecificProduct(parseInt(id))
       .then(product => {
         // setTimeout(() => this.setState({ product, loading: false }), 2000);
-        this.setState({ product, loading: false });
+        console.log(product);
+        this.setState({ product: product.data.product[0], loading: false });
       })
       .catch(err => {
         console.log(err);

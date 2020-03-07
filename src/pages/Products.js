@@ -18,9 +18,9 @@ class Products extends Component {
   componentDidMount() {
     getAllProducts()
       .then(result => {
-        console.log(result);
-        this.setState({ products: result });
-        console.log(result);
+        console.log(result.data.products);
+        this.setState({ products: result.data.products });
+        console.log(result.data.products);
       })
       .catch(err => {
         console.log(err);
