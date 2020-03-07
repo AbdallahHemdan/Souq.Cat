@@ -12,6 +12,7 @@ export async function getAll() {
 export async function getById(id) {
   try {
     const res = await axios.get(`http://127.0.0.1:2700/api/v1/products/${id}`);
+    console.log(res);
     return res;
   } catch (err) {
     const Product = Products.find((item) => item.id === id);
