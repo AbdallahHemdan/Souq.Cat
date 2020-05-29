@@ -1,9 +1,12 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=400px  src="https://github.com/AbdallahHemdan/Souq.Cat/blob/master/Images/addtext_com_MTQ1OTAyMjg0OTk.jpg" alt="Souq.Cat image"></a>
+ 
+ ![Component 9](https://user-images.githubusercontent.com/40190772/83280517-1294be80-a1d7-11ea-878f-8e6baa2020df.png)
+ 
+  </a>
 </p>
 
-<h3 align="center">🛒Souq.cat </h3>
+<h3 align="center">Souq.Cat </h3>
 
 <div align="center">
 
@@ -17,7 +20,7 @@
 
 ## 🛒Souq.cat
 
-Simple Cat store for selling cats to help me get rid of all street cats.. build using ReactJS, Redux, React-Router, React-Bootstrap..
+> Simple Cat store for selling cats to help me get rid of all street cats.. build using ReactJS, Redux, React-Router, React-Bootstrap..
 
 ## 📷 ScreenShots
 
